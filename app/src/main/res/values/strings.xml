@@ -1,0 +1,71 @@
+<resources xmlns:xliff="urn:oasis:name:tc:xliff:document:1.2">
+
+    <string name="app_name">Bilmekaniker Grani</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="namn">Namn</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="val">Val</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="val1">Dubbdäck</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="val2">Friktionsdäck</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="antalBildack">Antal</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=5] -->
+    <string name="usprungKvantitet">4</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="order">Beställ</string>
+
+    <!--
+         Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+         user's name. [CHAR LIMIT=NONE]
+       -->
+    <string name="Ordersammmanfattning">Namn: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <!--
+      DubbDack for the order summary. It will be shown in the format of
+      "Dubbdäck? true" or "Dubbdäck? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="OrdersammanfattningDubbDack">Dubbdäck? <xliff:g id="dubbDack" example="true">%b</xliff:g></string>
+
+    <!--
+      FriktionsDack for the order summary. It will be shown in the format of
+      "Friktionsdäck? true" or "Friktionsdäck? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="OrdersammanfattningFriktionsDack">Friktionsdäck? <xliff:g id="friktionsDack" example="true">%b</xliff:g></string>
+
+    <!--
+      Quantity of winter tyres for the order summary. It will be shown in the format of
+      "Antal däck: 4", where 4 is the number of tyres ordered to change. [CHAR LIMIT=NONE]
+    -->
+    <string name="OrdersammanfattningAntalDack">Antal: <xliff:g id="antalDack" example="4">%d</xliff:g></string>
+
+    <!--
+      Total price for the order summary. It will be shown in the format of
+      "Total: 10 €" where Euro 10 is the price. [CHAR LIMIT=NONE]
+    -->
+    <string name="OrdersammanfattningPris">Totalt: <xliff:g id="price" example=" 10 €">%s</xliff:g></string>
+
+    <!-- The timepoint for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="tidpunkt">För tidpunkten: <xliff:g id="Tidpunkt" example=" 19:30">%s</xliff:g></string>
+
+    <!-- The Date for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="datum">För datumet: <xliff:g id="datum" example=" 1.9.2017">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="tack">Tack för er beställning!</string>
+
+    <!--
+      Subject line for the order summary email. It will be in the format of
+      "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_email_subject"> Vinterdäck order <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+</resources>
